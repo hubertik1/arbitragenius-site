@@ -1,6 +1,6 @@
 # ArbitraGenius Site
 
-This React application provides informational pages for three calculators: Bonus Optimizer, Arbitrage Calculator, and Margin Checker. It was bootstrapped with Create React App.
+This React application provides informational pages for three calculators: Bonus Optimizer, Arbitrage Calculator, and Margin Monitor. It was bootstrapped with Create React App.
 
 ## Development
 

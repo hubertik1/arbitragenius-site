@@ -20,7 +20,7 @@ const Home = () => {
         <li>
           <h2>Margin Monitor</h2>
           <p>Discover hidden bookmaker markups and rare negative margins in seconds to know exactly when the odds tilt in your favor.</p>
-          <Link to="/margin-checker">Learn More</Link>
+          <Link to="/margin-monitor">Learn More</Link>
         </li>
       </ul>
     </div>

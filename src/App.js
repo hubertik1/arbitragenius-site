@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/bonus-optimizer" element={<BonusOptimizer />} />
             <Route path="/arbitrage-calculator" element={<ArbitrageCalculator />} />
-            <Route path="/margin-checker" element={<MarginMonitor />} />
+            <Route path="/margin-monitor" element={<MarginMonitor />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
