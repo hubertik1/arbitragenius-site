@@ -5,9 +5,15 @@ import Screenshot from '../components/Screenshot';
 const BonusOptimizer = () => {
   return (
     <div className={styles.container}>
-      <h1>Bonus Optimizer</h1>
-      <p>Instantly convert free bets and sign-up promos into guaranteed profit by balancing stakes across all outcomes.</p>
-      <Screenshot src="/assets/screenshot-bonus-optimizer.txt" />
+      <div className={styles.layout}>
+        <div className={styles.text}>
+          <h1>Bonus Optimizer</h1>
+          <p>Instantly convert free bets and sign-up promos into guaranteed profit by balancing stakes across all outcomes.</p>
+        </div>
+        <div className={styles.image}>
+          <Screenshot className={styles.scaledImage} src="/assets/bonus_ss.png" />
+        </div>
+      </div>
     </div>
   );
 };

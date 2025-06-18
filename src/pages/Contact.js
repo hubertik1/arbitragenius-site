@@ -10,7 +10,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // no backend submission
   };
 
   return (

@@ -1,17 +1,23 @@
-import React, { useEffect, useState } from 'react';
-import styles from './Screenshot.module.css';
+// src/components/Screenshot.jsx
+import React, { useEffect, useState } from "react";
+import styles from "./Screenshot.module.css";
 
-const Screenshot = ({ src }) => {
-  const [text, setText] = useState('');
+export default function Screenshot({ src, alt = "screenshot" }) {
+  const isText = src.endsWith(".txt");
 
+  const [text, setText] = useState("");
   useEffect(() => {
-    fetch(src)
-      .then((res) => res.text())
-      .then((t) => setText(t))
-      .catch(() => setText(''));
-  }, [src]);
+    if (isText) {
+      fetch(src)
+        .then((res) => res.text())
+        .then(setText)
+        .catch(() => setText("Failed to load placeholder"));
+    }
+  }, [src, isText]);
 
-  return <pre className={styles.screenshot}>{text}</pre>;
-};
-
-export default Screenshot;
+  return isText ? (
+    <pre className={styles.placeholder}>{text}</pre>
+  ) : (
+    <img src={src} alt={alt} className={styles.screenshot} />
+  );
+}

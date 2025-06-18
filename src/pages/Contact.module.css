@@ -21,6 +21,10 @@ textarea {
   border-radius: 4px;
 }
 
+textarea {
+  min-height: 150px;
+}
+
 button {
   background-color: #7c3aed;
   color: white;
