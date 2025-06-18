@@ -6,7 +6,7 @@ const BonusOptimizer = () => {
     <div className={styles.container}>
       <h1>Bonus Optimizer</h1>
       <p>Instantly convert free bets and sign-up promos into guaranteed profit by balancing stakes across all outcomes.</p>
-      <a href="/assets/screenshot-bonus-optimizer.txt" target="_blank" rel="noopener noreferrer">View Screenshot</a>
+      <a href="/assets/bonus_ss.png" target="_blank" rel="noopener noreferrer">View Screenshot</a>
     </div>
   );
 };
