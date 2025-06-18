@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import BonusOptimizer from './pages/BonusOptimizer';
 import ArbitrageCalculator from './pages/ArbitrageCalculator';
-import MarginChecker from './pages/MarginChecker';
+import MarginMonitor from './pages/MarginMonitor';
 import Contact from './pages/Contact';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/bonus-optimizer" element={<BonusOptimizer />} />
             <Route path="/arbitrage-calculator" element={<ArbitrageCalculator />} />
-            <Route path="/margin-checker" element={<MarginChecker />} />
+            <Route path="/margin-checker" element={<MarginMonitor />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>

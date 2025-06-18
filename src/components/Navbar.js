@@ -31,8 +31,8 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/margin-checker" className={linkClass}>
-            Margin Checker
+          <NavLink to="/margin-Monitor" className={linkClass}>
+            Margin Monitor
           </NavLink>
         </li>
         <li>

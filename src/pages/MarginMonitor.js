@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Calculator.module.css';
 import Screenshot from '../components/Screenshot';
 
-const MarginChecker = () => {
+const MarginMonitor = () => {
   return (
     <div className={styles.container}>
       <div className={styles.layout}>
@@ -18,4 +18,4 @@ const MarginChecker = () => {
   );
 };
 
-export default MarginChecker;
+export default MarginMonitor;
