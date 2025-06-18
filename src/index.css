@@ -1,0 +1,18 @@
+:root {
+  --primary: #6e3cbc;
+  --gradient: linear-gradient(135deg,#CAA8F5 0%,#6E3CBC 100%);
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--gradient);
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000;
+  }
+}
