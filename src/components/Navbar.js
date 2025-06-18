@@ -1,19 +1,19 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import styles from './Navbar.module.css';
+import { NavLink } from "react-router-dom";
+import styles from "./Navbar.module.css";
 
-const Navbar = () => {
+const linkClass = ({ isActive }) =>
+  isActive ? `${styles.active}` : undefined;
+
+export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <ul>
-        <li><NavLink to="/" end>Home</NavLink></li>
-        <li><NavLink to="/bonus-optimizer">Bonus Optimizer</NavLink></li>
-        <li><NavLink to="/arbitrage-calculator">Arbitrage Calculator</NavLink></li>
-        <li><NavLink to="/margin-checker">Margin Checker</NavLink></li>
-        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><NavLink to="/" end className={linkClass}>Home</NavLink></li>
+        <li><NavLink to="/bonus-optimizer" className={linkClass}>Bonus Optimizer</NavLink></li>
+        <li><NavLink to="/arbitrage-calculator" className={linkClass}>Arbitrage Calculator</NavLink></li>
+        <li><NavLink to="/margin-checker" className={linkClass}>Margin Checker</NavLink></li>
+        <li><NavLink to="/contact" className={linkClass}>Contact</NavLink></li>
       </ul>
     </nav>
   );
-};
-
-export default Navbar;
+}
