@@ -18,10 +18,16 @@
 .image {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
 
 .scaledImage {
   max-width: 90%;
   border-radius: 1rem;
+}
+
+.storeBadge {
+  margin-top: 20px;
+  max-width: 100%;
 }

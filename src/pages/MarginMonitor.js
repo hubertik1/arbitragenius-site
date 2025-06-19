@@ -12,6 +12,11 @@ const MarginMonitor = () => {
         </div>
         <div className={styles.image}>
           <Screenshot className={styles.scaledImage} src="/assets/margin_ss.png" />
+          <img
+            src="/assets/App_Store.svg"
+            alt="Download on the App Store"
+            className={styles.storeBadge}
+          />
         </div>
       </div>
     </div>

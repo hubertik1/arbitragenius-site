@@ -8,10 +8,18 @@ const BonusOptimizer = () => {
       <div className={styles.layout}>
         <div className={styles.text}>
           <h1>Bonus Optimizer</h1>
-          <p>Instantly convert free bets and sign-up promos into guaranteed profit by balancing stakes across all outcomes.</p>
+          <p>
+            Instantly convert free bets and sign-up promos into guaranteed profit by balancing stakes
+            across all outcomes.
+          </p>
         </div>
         <div className={styles.image}>
           <Screenshot className={styles.scaledImage} src="/assets/bonus_ss.png" />
+          <img
+            src="/assets/App_Store.svg"
+            alt="Download on the App Store"
+            className={styles.storeBadge}
+          />
         </div>
       </div>
     </div>
