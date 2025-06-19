@@ -31,13 +31,18 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/margin-Monitor" className={linkClass}>
+          <NavLink to="/margin-monitor" className={linkClass}>
             Margin Monitor
           </NavLink>
         </li>
         <li>
           <NavLink to="/contact" className={linkClass}>
             Contact
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/privacy-policy" className={linkClass}>
+            Privacy Policy
           </NavLink>
         </li>
       </ul>

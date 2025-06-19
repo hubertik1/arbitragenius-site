@@ -7,6 +7,7 @@ import BonusOptimizer from './pages/BonusOptimizer';
 import ArbitrageCalculator from './pages/ArbitrageCalculator';
 import MarginMonitor from './pages/MarginMonitor';
 import Contact from './pages/Contact';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/arbitrage-calculator" element={<ArbitrageCalculator />} />
             <Route path="/margin-monitor" element={<MarginMonitor />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </div>
       </div>
