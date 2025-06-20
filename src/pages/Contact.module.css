@@ -37,3 +37,20 @@ button {
 button:hover {
   background-color: #6b21a8;
 }
+
+/* New styles for anonymous checkbox */
+.checkboxLabel {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #334155;
+}
+
+.checkboxLabel input[type="checkbox"] {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+  accent-color: #7c3aed;
+}
