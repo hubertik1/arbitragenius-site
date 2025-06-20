@@ -5,6 +5,12 @@
   border: none;
 }
 
+@media (max-width: 480px) {
+  .screenshot {
+    max-width: 100%;
+  }
+}
+
 .placeholder {
   background: #f5f3ff;      
   color: #6d28d9;           

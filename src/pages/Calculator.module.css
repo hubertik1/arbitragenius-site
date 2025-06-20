@@ -111,3 +111,26 @@ h1 {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .screenshot {
+    max-width: 90%;
+  }
+
+  .storeBadge {
+    max-width: 150px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .intro,
+  .cta {
+    font-size: 0.95rem;
+  }
+}
