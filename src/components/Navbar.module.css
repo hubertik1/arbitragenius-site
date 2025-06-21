@@ -37,11 +37,13 @@
 .links a {
   color: #000;
   text-decoration: none;
-  padding: 8px 12px;
+  padding: 16px 20px;
   border-radius: 4px;
   transition: background-color 0.3s, transform 0.3s;
   display: block;
   white-space: nowrap;
+  background-color: #faf5ff;
+
 }
 
 .links a:hover {
@@ -97,12 +99,13 @@
   .links {
     flex-direction: column;
     align-items: stretch;
-    gap: 4px; /* tighter spacing */
+    gap: 4px; 
     width: 100%;
     margin: 5px 0 0;
     display: none;
-    padding: 0 16px;
+    padding: 2px 16px;
     box-sizing: border-box;
+    margin-bottom: 1.3rem;
   }
 
   .links.show {
@@ -110,8 +113,8 @@
   }
 
   .links a {
-    padding: 4px 12px; /* reduced vertical padding */
-    font-size: 14px;   /* ensure legible but compact */
+    padding: 7px 12px; 
+    font-size: 14px;  
     width: 100%;
     box-sizing: border-box;
     transform: none;
