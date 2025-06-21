@@ -3,7 +3,8 @@ import styles from './ScreenshotCarousel.module.css';
 import { Link } from 'react-router-dom';
 
 const ScreenshotCarousel = ({ items }) => (
-  <div className={styles.carousel}>
+  <div className={styles.carouselContainer}>
+    <div className={styles.carousel}>
     {items.map((item, idx) => (
       <div key={idx} className={styles.card}>
         <Link to={item.link} className={styles.cardTitle}>
@@ -12,6 +13,7 @@ const ScreenshotCarousel = ({ items }) => (
         <img src={item.image} alt={item.alt} className={styles.screenshot} />
       </div>
     ))}
+  </div>
   </div>
 );
 
