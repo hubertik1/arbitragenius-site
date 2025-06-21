@@ -54,3 +54,13 @@ button:hover {
   height: 18px;
   accent-color: #7c3aed;
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

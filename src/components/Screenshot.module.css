@@ -6,9 +6,15 @@
 }
 
 .placeholder {
-  background: #f5f3ff;      
-  color: #6d28d9;           
+  background: #f5f3ff;
+  color: #6d28d9;
   padding: 1rem;
   border-radius: 1rem;
   overflow-x: auto;
+}
+
+@media (max-width: 480px) {
+  .screenshot {
+    max-width: 100%;
+  }
 }

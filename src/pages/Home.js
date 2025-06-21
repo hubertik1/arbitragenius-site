@@ -1,30 +1,78 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
+import ScreenshotCarousel from '../components/ScreenshotCarousel';
 
-const Home = () => {
-  return (
-    <div className={styles.container}>
-      <h1>ArbitraGenius Toolkit</h1>
-      <ul>
-        <li>
-          <h2>Bonus Optimizer</h2>
-          <p>Earn extra money from free bets and bonuses without the guesswork. Increase your winnings or withdraw your bonuses risk-free by instantly balancing stakes across all outcomes with a single tap.</p>
-          <Link to="/bonus-optimizer">Learn More</Link>
-        </li>
-        <li>
-          <h2>Arbitrage Calculator</h2>
-          <p>Lock in risk-free profits from bookmaker odds gaps in seconds. Enter odds from two or more sportsbooks and let our engine balance stakes across all outcomes—turn every price discrepancy into guaranteed extra cash with zero exposure.</p>
-          <Link to="/arbitrage-calculator">Learn More</Link>
-        </li>
-        <li>
-          <h2>Margin Monitor</h2>
-          <p>Discover hidden bookmaker markups and rare negative margins in seconds to know exactly when the odds tilt in your favor.</p>
-          <Link to="/margin-monitor">Learn More</Link>
-        </li>
-      </ul>
-    </div>
-  );
-};
+const Home = () => (
+  <div className={styles.container}>
+    <header className={styles.hero}>
+      <h1 className={styles.title}>Unlock Risk-Free Betting Profits</h1>
+      <p className={styles.subtitle}>
+        Instantly optimize free bets, spot arbitrage gaps, and reveal bookmaker margins-all in one toolkit.
+      </p>
+      <a
+        href="https://appstore.com"
+        className={styles.ctaButton}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download the App
+      </a>
+    </header>
+
+    <section className={styles.featuresSection}>
+      <div className={styles.feature}>
+        <span className={styles.icon}>🚀</span>
+        <h2><Link to="/bonus-optimizer" className={styles.featureLink}>Bonus Optimizer</Link></h2>
+        <p>Turn your free bets into up to extra $80 per $100.</p>
+      </div>
+      <div className={styles.feature}>
+        <span className={styles.icon}>🤝</span>
+        <h2><Link to="/arbitrage-calculator" className={styles.featureLink}>Arbitrage Calculator</Link></h2>
+        <p>Lock in guaranteed profit on every market gap.</p>
+      </div>
+      <div className={styles.feature}>
+        <span className={styles.icon}>📊</span>
+        <h2><Link to="/margin-monitor" className={styles.featureLink}>Margin Monitor</Link></h2>
+        <p>Reveal hidden bookmaker margins in seconds.</p>
+      </div>
+    </section>
+
+    <section className={styles.howItWorks}>
+      <h2>How It Works</h2>
+      <ol>
+        <li><strong>Input.</strong> Enter odds and stake.</li>
+        <li><strong>Calculate.</strong> Our engine optimizes stakes or margins.</li>
+        <li><strong>Profit.</strong> View guaranteed returns.</li>
+      </ol>
+    </section>
+
+    <section className={styles.screenshots}>
+      <h2>App Screenshots</h2>
+      <ScreenshotCarousel
+        items={[
+          { title: 'Bonus Optimizer', link: '/bonus-optimizer', image: '/assets/bonus_ss.png', alt: 'Bonus Optimizer' },
+          { title: 'Arbitrage Calculator', link: '/arbitrage-calculator', image: '/assets/arbitrage_ss.png', alt: 'Arbitrage Calculator' },
+          { title: 'Margin Monitor', link: '/margin-monitor', image: '/assets/margin_ss.png', alt: 'Margin Monitor' }
+        ]}
+      />
+    </section>
+
+    <section className={styles.ctaSection}>
+      <h2>Ready to Win Smarter?</h2>
+      <a
+          href="https://appstore.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.storeBadge}
+        >
+          <img
+            src="/assets/App_Store.svg"
+            alt="Download on the App Store"
+          />
+        </a>
+    </section>
+  </div>
+);
 
 export default Home;
