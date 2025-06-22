@@ -72,3 +72,10 @@
 .navButton:last-of-type {
   right: 0;
 }
+
+
+@media (max-width: 480px) {
+  .carousel {
+    justify-content: flex-start;
+  }
+}
