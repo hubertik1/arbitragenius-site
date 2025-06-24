@@ -4,7 +4,7 @@ import styles from './PrivacyPolicy.module.css';
 const PrivacyPolicy = () => (
   <div className={styles.container}>
     <h1>ArbitraGenius App – Privacy Policy</h1>
-    <p><em>Version 1.1 – Last updated: 24 June 2025</em></p>
+    <p><em>Version 1.0 – Last updated: 24 June 2025</em></p>
 
     {/* 1. Core Principle */}
     <h2>1. Our Core Principle</h2>
