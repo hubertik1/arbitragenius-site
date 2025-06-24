@@ -22,7 +22,7 @@ const Home = () => (
 
     <section className={styles.featuresSection}>
       <div className={styles.feature}>
-        <span className={styles.icon}>🚀</span>
+        <span className={styles.icon}>🎁</span>
         <h2><Link to="/bonus-optimizer" className={styles.featureLink}>Bonus Optimizer</Link></h2>
         <p>Turn your free bets into up to extra $80 per $100.</p>
       </div>
