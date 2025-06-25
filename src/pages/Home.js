@@ -11,7 +11,7 @@ const Home = () => (
         Instantly optimize free bets, spot arbitrage gaps, and reveal bookmaker margins-all in one toolkit.
       </p>
       <a
-        href="https://appstore.com"
+        href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
         className={styles.ctaButton}
         target="_blank"
         rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const Home = () => (
     <section className={styles.ctaSection}>
       <h2>Ready to Win Smarter?</h2>
       <a
-          href="https://appstore.com"
+          href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.storeBadge}

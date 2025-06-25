@@ -22,13 +22,13 @@ const ArbitrageCalculator = () => (
           </li>
         </ul>
         <p className={styles.cta}>
-          Ready to start winning with confidence? <a href="https://appstore.com">Download the App now</a> and turn every opportunity into guaranteed profit.
+          Ready to start winning with confidence? <a href="https://apps.apple.com/pl/app/arbitragenius/id6747199263">Download the App now</a> and turn every opportunity into guaranteed profit.
         </p>
       </div>
       <div className={styles.image}>
         <Screenshot className={styles.screenshot} src="/assets/arbitrage_ss.png" />
         <a
-          href="https://appstore.com"
+          href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.storeBadge}

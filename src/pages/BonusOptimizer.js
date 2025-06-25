@@ -22,13 +22,13 @@ const BonusOptimizer = () => (
           </li>
         </ul>
         <p className={styles.cta}>
-          Best of all, you could pocket <strong>up to an extra $80 for every $100 freebet</strong> you play. Ready to make the most of your bonuses? <a href="https://appstore.com">Download the App now</a> and start winning smarter.
+          Best of all, you could pocket <strong>up to an extra $80 for every $100 freebet</strong> you play. Ready to make the most of your bonuses? <a href="https://apps.apple.com/pl/app/arbitragenius/id6747199263">Download the App now</a> and start winning smarter.
         </p>
       </div>
       <div className={styles.image}>
         <Screenshot className={styles.screenshot} src="/assets/bonus_ss.png" />
         <a
-          href="https://appstore.com"
+          href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.storeBadge}
