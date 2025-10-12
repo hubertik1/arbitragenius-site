@@ -1,6 +1,12 @@
 # ArbitraGenius Site
 
-This React application provides informational pages for three calculators: Bonus Optimizer, Arbitrage Calculator, and Margin Monitor. It was bootstrapped with Create React App.
+Marketing-focused React landing page that promotes the ArbitraGenius iOS app and its in-app tools: Bonus Optimizer, Arbitrage Calculator, and Margin Monitor.
+
+## Highlights
+
+- Presents the ArbitraGenius value proposition and core calculator features.
+- Emphasizes that the calculators live inside the iOS app rather than on the site.
+- Drives traffic to the App Store listing with copy and visuals.
 
 ## Development
 
@@ -10,7 +16,3 @@ Install dependencies and start the development server:
 npm install
 npm start
 ```
-
-## Replacing Placeholder Screenshots
-
-Placeholder text files are located in `public/assets/` and are referenced by the pages instead of images. Replace each `.txt` file with an actual image using the same filename but with an image extension (e.g. `.png`) and update the page components to load your image.
