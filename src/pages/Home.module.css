@@ -1,5 +1,6 @@
 .container {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 32px;
 }
 
@@ -36,6 +37,10 @@
   align-items: center;
 }
 
+.heroGrid > * {
+  min-width: 0;
+}
+
 .heroCopy {
   max-width: 640px;
 }
@@ -64,6 +69,7 @@
   line-height: 0.95;
   letter-spacing: -0.05em;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .subtitle {
@@ -87,6 +93,7 @@
   align-items: center;
   justify-content: center;
   min-height: 54px;
+  max-width: 100%;
   padding: 0 22px;
   border-radius: 18px;
   text-decoration: none;
@@ -200,11 +207,13 @@
 .screenshots,
 .ctaSection {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 22px;
 }
 
 .howItWorks {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 22px;
   padding: 30px;
   border-radius: 32px;
@@ -218,6 +227,10 @@
   align-items: flex-end;
   justify-content: space-between;
   gap: 18px;
+}
+
+.sectionHeader > * {
+  min-width: 0;
 }
 
 .sectionHeader h2 {

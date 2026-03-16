@@ -201,6 +201,12 @@
     transition: opacity 180ms ease, transform 180ms ease;
   }
 
+  .navPanel.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
   .links {
     display: grid;
     grid-template-columns: 1fr;
