@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import styles from './App.module.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -8,6 +8,7 @@ import ArbitrageCalculator from './pages/ArbitrageCalculator';
 import MarginMonitor from './pages/MarginMonitor';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
             <Route path="/margin-monitor" element={<MarginMonitor />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/404" element={<NotFound />} />
+            <Route path="*" element={<Navigate to="/404" replace />} />
           </Routes>
         </main>
       </div>
