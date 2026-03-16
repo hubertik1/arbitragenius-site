@@ -5,10 +5,11 @@ import Screenshot from '../components/Screenshot';
 const BonusOptimizer = () => (
   <div className={styles.container}>
     <div className={styles.layout}>
-      <div className={styles.text}>
-        <h1>Bonus Optimizer</h1>
+      <section className={styles.textPanel}>
+        <span className={styles.eyebrow}>Free bets</span>
+        <h1 className={styles.title}>Bonus Optimizer</h1>
         <p className={styles.intro}>
-          Do you ever get those “free bet” bonuses only to watch your stake quietly vanish from your winnings? Stop letting valuable freebets go to waste, our Bonus Optimizer is built just for you. It’s the risk-free way to turn every dollar of freebet credit into real profit or supercharge your potential payout.
+          Do you ever get those “free bet” bonuses only to watch your stake quietly vanish from your winnings? Stop letting valuable free bets go to waste. Our Bonus Optimizer is built to turn every dollar of free-bet credit into real profit or a stronger payout.
         </p>
         <ul className={styles.features}>
           <li>
@@ -24,9 +25,11 @@ const BonusOptimizer = () => (
         <p className={styles.cta}>
           Best of all, you could pocket <strong>up to an extra $80 for every $100 freebet</strong> you play. Ready to make the most of your bonuses? <a href="https://apps.apple.com/pl/app/arbitragenius/id6747199263">Download the App now</a> and start winning smarter.
         </p>
-      </div>
-      <div className={styles.image}>
-        <Screenshot className={styles.screenshot} src="/assets/bonus_ss.png" />
+      </section>
+      <aside className={styles.imagePanel}>
+        <div className={styles.previewFrame}>
+          <Screenshot className={styles.screenshot} src="/assets/bonus_ss.png" alt="Bonus Optimizer screenshot" />
+        </div>
         <a
           href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
           target="_blank"
@@ -38,7 +41,7 @@ const BonusOptimizer = () => (
             alt="Download on the App Store"
           />
         </a>
-      </div>
+      </aside>
     </div>
   </div>
 );

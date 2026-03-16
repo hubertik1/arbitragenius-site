@@ -1,11 +1,19 @@
 .app {
-  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .content {
-  padding: 20px;
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 72px;
   flex: 1;
+}
+
+@media (max-width: 640px) {
+  .content {
+    width: min(1200px, calc(100% - 20px));
+    padding: 20px 0 56px;
+  }
 }

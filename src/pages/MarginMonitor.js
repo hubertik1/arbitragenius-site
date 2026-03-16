@@ -5,8 +5,9 @@ import Screenshot from '../components/Screenshot';
 const MarginMonitor = () => (
   <div className={styles.container}>
     <div className={styles.layout}>
-      <div className={styles.text}>
-        <h1>Margin Monitor</h1>
+      <section className={styles.textPanel}>
+        <span className={styles.eyebrow}>Market edge</span>
+        <h1 className={styles.title}>Margin Monitor</h1>
         <p className={styles.intro}>
           Instantly reveal the bookmaker’s built-in margin and spot rare negative margins, so you always know when the odds are stacked in your favor.
         </p>
@@ -24,9 +25,11 @@ const MarginMonitor = () => (
         <p className={styles.cta}>
           Ready to find favorable odds on the fly? <a href="https://apps.apple.com/pl/app/arbitragenius/id6747199263">Download the App now</a> and start spotting margins in your favor.
         </p>
-      </div>
-      <div className={styles.image}>
-        <Screenshot className={styles.screenshot} src="/assets/margin_ss.png" />
+      </section>
+      <aside className={styles.imagePanel}>
+        <div className={styles.previewFrame}>
+          <Screenshot className={styles.screenshot} src="/assets/margin_ss.png" alt="Margin Monitor screenshot" />
+        </div>
         <a
           href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
           target="_blank"
@@ -38,7 +41,7 @@ const MarginMonitor = () => (
             alt="Download on the App Store"
           />
         </a>
-      </div>
+      </aside>
     </div>
   </div>
 );

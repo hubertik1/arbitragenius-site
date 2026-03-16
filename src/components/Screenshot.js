@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Screenshot.module.css";
 
-export default function Screenshot({ src, alt = "screenshot" }) {
+export default function Screenshot({ src, alt = "screenshot", className = "" }) {
   const isText = src.endsWith(".txt");
 
   const [text, setText] = useState("");
@@ -16,8 +16,8 @@ export default function Screenshot({ src, alt = "screenshot" }) {
   }, [src, isText]);
 
   return isText ? (
-    <pre className={styles.placeholder}>{text}</pre>
+    <pre className={[styles.placeholder, className].filter(Boolean).join(" ")}>{text}</pre>
   ) : (
-    <img src={src} alt={alt} className={styles.screenshot} />
+    <img src={src} alt={alt} className={[styles.screenshot, className].filter(Boolean).join(" ")} />
   );
 }

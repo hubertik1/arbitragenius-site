@@ -5,8 +5,9 @@ import Screenshot from '../components/Screenshot';
 const ArbitrageCalculator = () => (
   <div className={styles.container}>
     <div className={styles.layout}>
-      <div className={styles.text}>
-        <h1>Arbitrage Calculator</h1>
+      <section className={styles.textPanel}>
+        <span className={styles.eyebrow}>Arbitrage bets</span>
+        <h1 className={styles.title}>Arbitrage Calculator</h1>
         <p className={styles.intro}>
           Discover guaranteed profit opportunities across any number of betting outcomes. Our Arbitrage Calculator instantly shows you exactly how to split your stake so you lock in the same payout regardless of which option wins.
         </p>
@@ -24,9 +25,11 @@ const ArbitrageCalculator = () => (
         <p className={styles.cta}>
           Ready to start winning with confidence? <a href="https://apps.apple.com/pl/app/arbitragenius/id6747199263">Download the App now</a> and turn every opportunity into guaranteed profit.
         </p>
-      </div>
-      <div className={styles.image}>
-        <Screenshot className={styles.screenshot} src="/assets/arbitrage_ss.png" />
+      </section>
+      <aside className={styles.imagePanel}>
+        <div className={styles.previewFrame}>
+          <Screenshot className={styles.screenshot} src="/assets/arbitrage_ss.png" alt="Arbitrage Calculator screenshot" />
+        </div>
         <a
           href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
           target="_blank"
@@ -38,7 +41,7 @@ const ArbitrageCalculator = () => (
             alt="Download on the App Store"
           />
         </a>
-      </div>
+      </aside>
     </div>
   </div>
 );

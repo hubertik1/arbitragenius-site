@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className={styles.app}>
         <Navbar />
-        <div className={styles.content}>
+        <main className={styles.content}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bonus-optimizer" element={<BonusOptimizer />} />
@@ -23,7 +23,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
-        </div>
+        </main>
       </div>
     </Router>
   );
