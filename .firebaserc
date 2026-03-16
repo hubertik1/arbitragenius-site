@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "hubertik"
+  },
+  "targets": {
+    "hubertik": {
+      "hosting": {
+        "arbitragenius": [
+          "arbitragenius-hubertik"
+        ]
+      }
+    }
+  }
+}
