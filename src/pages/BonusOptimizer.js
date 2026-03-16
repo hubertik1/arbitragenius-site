@@ -31,7 +31,7 @@ const BonusOptimizer = () => (
         </section>
         <aside className={styles.imagePanel}>
           <div className={styles.previewFrame}>
-            <Screenshot className={styles.screenshot} src="/assets/bonus_ss.png" alt="Bonus Optimizer screenshot" />
+            <Screenshot className={styles.screenshot} src="/assets/bonus_ss.webp" alt="Bonus Optimizer screenshot" />
           </div>
           <a
             href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"

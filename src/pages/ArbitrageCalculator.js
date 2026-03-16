@@ -31,7 +31,7 @@ const ArbitrageCalculator = () => (
         </section>
         <aside className={styles.imagePanel}>
           <div className={styles.previewFrame}>
-            <Screenshot className={styles.screenshot} src="/assets/arbitrage_ss.png" alt="Arbitrage Calculator screenshot" />
+            <Screenshot className={styles.screenshot} src="/assets/arbitrage_ss.webp" alt="Arbitrage Calculator screenshot" />
           </div>
           <a
             href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"

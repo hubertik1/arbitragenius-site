@@ -26,7 +26,7 @@ export default function Navbar() {
         <Link to="/" className={styles.brand} onClick={handleLinkClick}>
           <span className={styles.logoContainer}>
             <img
-              src="/assets/logo_transparent.png"
+              src="/assets/logo_transparent.webp"
               alt="ArbitraGenius logo"
               className={styles.logo}
             />

@@ -3,7 +3,7 @@
     "path": "/",
     "title": "ArbitraGenius | Bonus Bet, Arbitrage, and Margin Tools for iPhone",
     "description": "Optimize free bets, split arbitrage stakes, and reveal bookmaker margins with ArbitraGenius for iPhone.",
-    "image": "/assets/logo.png",
+    "image": "/assets/logo.webp",
     "imageAlt": "ArbitraGenius logo",
     "includeInSitemap": true
   },
@@ -11,7 +11,7 @@
     "path": "/bonus-optimizer",
     "title": "Bonus Optimizer | ArbitraGenius",
     "description": "Turn free bet credits into stronger cash returns with ArbitraGenius Bonus Optimizer for iPhone.",
-    "image": "/assets/bonus_ss.png",
+    "image": "/assets/bonus_ss.webp",
     "imageAlt": "Bonus Optimizer app screenshot",
     "includeInSitemap": true
   },
@@ -19,7 +19,7 @@
     "path": "/arbitrage-calculator",
     "title": "Arbitrage Calculator | ArbitraGenius",
     "description": "Split stakes across outcomes, lock in consistent payouts, and check ROI with the ArbitraGenius arbitrage calculator.",
-    "image": "/assets/arbitrage_ss.png",
+    "image": "/assets/arbitrage_ss.webp",
     "imageAlt": "Arbitrage Calculator app screenshot",
     "includeInSitemap": true
   },
@@ -27,7 +27,7 @@
     "path": "/margin-monitor",
     "title": "Margin Monitor | ArbitraGenius",
     "description": "Reveal bookmaker margins, implied probabilities, and rare negative-margin markets with ArbitraGenius Margin Monitor.",
-    "image": "/assets/margin_ss.png",
+    "image": "/assets/margin_ss.webp",
     "imageAlt": "Margin Monitor app screenshot",
     "includeInSitemap": true
   },
@@ -35,7 +35,7 @@
     "path": "/contact",
     "title": "Contact | ArbitraGenius",
     "description": "Get in touch with ArbitraGenius for app support, feedback, privacy questions, or feature requests.",
-    "image": "/assets/logo.png",
+    "image": "/assets/logo.webp",
     "imageAlt": "ArbitraGenius logo",
     "includeInSitemap": true
   },
@@ -43,7 +43,7 @@
     "path": "/privacy-policy",
     "title": "Privacy Policy | ArbitraGenius",
     "description": "Read the ArbitraGenius privacy policy for app data handling, support contact retention, and platform disclosures.",
-    "image": "/assets/logo.png",
+    "image": "/assets/logo.webp",
     "imageAlt": "ArbitraGenius logo",
     "includeInSitemap": true
   },
@@ -51,7 +51,7 @@
     "path": "/404",
     "title": "Page Not Found | ArbitraGenius",
     "description": "The page you requested could not be found.",
-    "image": "/assets/logo.png",
+    "image": "/assets/logo.webp",
     "imageAlt": "ArbitraGenius logo",
     "robots": "noindex,nofollow",
     "includeInSitemap": false

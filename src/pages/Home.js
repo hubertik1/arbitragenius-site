@@ -167,9 +167,9 @@ const Home = () => (
 
         <ScreenshotCarousel
           items={[
-            { title: 'Bonus Optimizer', link: '/bonus-optimizer', image: '/assets/bonus_ss.png', alt: 'Bonus Optimizer app screenshot' },
-            { title: 'Arbitrage Calculator', link: '/arbitrage-calculator', image: '/assets/arbitrage_ss.png', alt: 'Arbitrage Calculator app screenshot' },
-            { title: 'Margin Monitor', link: '/margin-monitor', image: '/assets/margin_ss.png', alt: 'Margin Monitor app screenshot' }
+            { title: 'Bonus Optimizer', link: '/bonus-optimizer', image: '/assets/bonus_ss.webp', alt: 'Bonus Optimizer app screenshot' },
+            { title: 'Arbitrage Calculator', link: '/arbitrage-calculator', image: '/assets/arbitrage_ss.webp', alt: 'Arbitrage Calculator app screenshot' },
+            { title: 'Margin Monitor', link: '/margin-monitor', image: '/assets/margin_ss.webp', alt: 'Margin Monitor app screenshot' }
           ]}
         />
       </section>

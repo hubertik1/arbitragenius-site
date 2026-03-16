@@ -31,7 +31,7 @@ const MarginMonitor = () => (
         </section>
         <aside className={styles.imagePanel}>
           <div className={styles.previewFrame}>
-            <Screenshot className={styles.screenshot} src="/assets/margin_ss.png" alt="Margin Monitor screenshot" />
+            <Screenshot className={styles.screenshot} src="/assets/margin_ss.webp" alt="Margin Monitor screenshot" />
           </div>
           <a
             href="https://apps.apple.com/pl/app/arbitragenius/id6747199263"
